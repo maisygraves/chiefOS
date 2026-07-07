@@ -1,4 +1,4 @@
-# Coach — Process Scheduler for Humans
+# Process Scheduler for Humans
 ### A chiefOS Component | Kaggle 5-Day AI Agents Capstone
 
 Coach answers one question: **"What should I be doing right now?"**
