@@ -11,7 +11,7 @@ This repo contains a terminal demo of the agent harness — a single-file walkth
 ## Course Concepts Applied
 This project was built as the capstone for the Kaggle 5-Day AI Agents Intensive Course with Google. Here's how the course concepts show up in `agent_demo.py`:
 
-**Instructions (the "Soul"):** The `SOUL` prompt defines the agent's identity and hard rules — it can only make ONE recommendation per response, drawn from a fixed set of categories (START, PROTECT, DEFER, RECOVER, PREPARE, TRIAGE, PROTECT_CAPACITY), and must respond in a strict, parseable format.
+**Day 1 — Instructions (the "Brain"):** The `BRAIN` prompt defines the agent's identity and hard rules — it can only make ONE recommendation per response, drawn from a fixed set of categories (START, PROTECT, DEFER, RECOVER, PREPARE, TRIAGE, PROTECT_CAPACITY), and must respond in a strict, parseable format.
 
 **Day 2 — Agent Tools & Interoperability:** The agent calls discrete tools rather than reasoning blind: `get_current_time()` grounds every decision in the real clock, and `assess_capacity()` computes free minutes, energy-adjusted effective capacity, and upcoming commitments from raw input — all deterministic, no LLM call required.
 
