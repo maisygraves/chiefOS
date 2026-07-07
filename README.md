@@ -6,7 +6,7 @@ Coach answers one question: **"What should I be doing right now?"**
 This repo contains a terminal demo of the agent harness — a single-file walkthrough of how the agent reasons about a person's schedule, energy, and commitments to make one grounded recommendation at a time.
 
 ## Project Demo Video
-
+[https://youtu.be/ZwucP7ME_vU]([url](https://youtu.be/ZwucP7ME_vU))
 
 ## Course Concepts Applied
 This project was built as the capstone for the Kaggle 5-Day AI Agents Intensive Course with Google. Here's how the course concepts show up in `agent_demo.py`:
