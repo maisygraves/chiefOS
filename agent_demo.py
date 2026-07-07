@@ -113,9 +113,9 @@ def log_recommendation(situation: str, recommendation: str, category: str):
     with open(log_file, "w") as f:
         json.dump(logs, f, indent=2)
 
-# ─── Soul (Instructions) ─────────────────────────────────────────────────────
+# ─── Brain (Instructions) ─────────────────────────────────────────────────────
 
-SOUL = """You are Coach — a process scheduler for humans.
+BRAIN = """You are Coach — a process scheduler for humans.
 
 Your job is to answer one question: "What should I be doing right now?"
 
@@ -215,7 +215,7 @@ Person said: "{user_input}" """
         response = get_client().models.generate_content(
             model=os.getenv("MODEL", "gemini-3.1-flash-lite"),
             config=types.GenerateContentConfig(
-                system_instruction=SOUL,
+                system_instruction=BRAIN,
                 max_output_tokens=300
             ),
             contents=context
